@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+.head p {
+  color: #4e4e4e;
+  font-size: 0.9rem;
+}
+.head::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+/*  */
+/* Background Style */
+.bg-style {
+  background: no-repeat center fixed;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+.bg-style::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+/* Background Style */
+
+/* ----------- Animation ----------- */
+@keyframes typed {
+  0% {
+      content: "";
+      border-right-color: #fff;
+  }
+  /* Designer */
+  1.5% {
+      content: "D";
+      border-right-color: #fff;
+  }
+  3% {
+      content: "De";
+      border-right-color: #fff;
+  }
+  4.5% {
+      content: "Des";
+      border-right-color: #fff;
+  }
+  6% {
+      content: "Desi";
+      border-right-color: #fff;
+  }
+  7.5% {
+      content: "Desig";
+      border-right-color: #fff;
+  }
+  9% {
+      content: "Design";
+      border-right-color: #fff;
+  }
+  10.5% {
+      content: "Designe";
+      border-right-color: #fff;
+  }
+  12% {
+      content: "Designer";
+      border-right-color: #fff;
+  }
+  13% {
+      content: "Designer";
+      border-right-color: transparent;
+  }
+  14% {
+      content: "Designer";
+      border-right-color: #fff;
+  }
+  15% {
+      content: "Designer";
+      border-right-color: transparent;
+  }
+  16% {
+      content: "Designer";
+      border-right-color: #fff;
+  }
+  17% {
+      content: "Designer";
+      border-right-color: transparent;
+  }
+  18% {
+      content: "Designer";
+      border-right-color: #fff;
+  }
+  19% {
+      content: "Designer";
+      border-right-color: transparent;
+  }
+  20% {
+      content: "Designer";
+      border-right-color: #fff;
+  }
+  21.5% {
+      content: "Designe";
+      border-right-color: #fff;
+  }
+  23% {
+      content: "Design";
+      border-right-color: #fff;
+  }
+  24.5% {
+      content: "Desig";
+      border-right-color: #fff;
+  }
+  26% {
+      content: "Desi";
+      border-right-color: #fff;
+  }
+  27.5% {
+      content: "Des";
+      border-right-color: #fff;
+  }
+  29% {
+      content: "De";
+      border-right-color: #fff;
+  }
+  32% {
+      content: "De";
+      border-right-color: #fff;
+  }
+  /* Developer */
+  33% {
+      content: "Dev";
+      border-right-color: #fff;
+  }
+  34.5% {
+      content: "Deve";
+      border-right-color: #fff;
+  }
+  36% {
+      content: "Devel";
+      border-right-color: #fff;
+  }
+  37.5% {
+      content: "Develo";
+      border-right-color: #fff;
+  }
+  39% {
+      content: "Develop";
+      border-right-color: #fff;
+  }
+  40.5% {
+      content: "Develope";
+      border-right-color: #fff;
+  }
+  42% {
+      content: "Developer";
+      border-right-color: #fff;
+  }
+  44% {
+      content: "Developer";
+      border-right-color: transparent;
+  }
+  45% {
+      content: "Developer";
+      border-right-color: #fff;
+  }
+  46% {
+      content: "Developer";
+      border-right-color: transparent;
+  }
+  47% {
+      content: "Developer";
+      border-right-color: #fff;
+  }
+  48% {
+      content: "Developer";
+      border-right-color: transparent;
+  }
+  49% {
+      content: "Developer";
+      border-right-color: #fff;
+  }
+  50% {
+      content: "Developer";
+      border-right-color: transparent;
+  }
+  51% {
+      content: "Developer";
+      border-right-color: #fff;
+  }
+  52.5% {
+      content: "Develope";
+      border-right-color: #fff;
+  }
+  54% {
+      content: "Develop";
+      border-right-color: #fff;
+  }
+  55.5% {
+      content: "Develo";
+      border-right-color: #fff;
+  }
+  57% {
+      content: "Devel";
+      border-right-color: #fff;
+  }
+  58.5% {
+      content: "Deve";
+      border-right-color: #fff;
+  }
+  60% {
+      content: "Dev";
+      border-right-color: #fff;
+  }
+  61.5% {
+      content: "De";
+      border-right-color: #fff;
+  }
+  63% {
+      content: "D";
+      border-right-color: #fff;
+  }
+  65% {
+      content: "";
+      border-right-color: #fff;
+  }
+  /* Freelaner */
+  65.5% {
+      content: "F";
+      border-right-color: #fff;
+  }
+  67% {
+      content: "Fr";
+      border-right-color: #fff;
+  }
+  68.5% {
+      content: "Fre";
+      border-right-color: #fff;
+  }
+  70% {
+      content: "Free";
+      border-right-color: #fff;
+  }
+  71.5% {
+      content: "Freel";
+      border-right-color: #fff;
+  }
+  73% {
+      content: "Freela";
+      border-right-color: #fff;
+  }
+  74.5% {
+      content: "Freelan";
+      border-right-color: #fff;
+  }
+  76% {
+      content: "Freelanc";
+      border-right-color: #fff;
+  }
+  77.5% {
+      content: "Freelance";
+      border-right-color: #fff;
+  }
+  79% {
+      content: "Freelancer";
+      border-right-color: #fff;
+  }
+  80.5% {
+      content: "Freelancer";
+      border-right-color: transparent;
+  }
+  82% {
+      content: "Freelancer";
+      border-right-color: #fff;
+  }
+  83.5% {
+      content: "Freelancer";
+      border-right-color: transparent;
+  }
+  85% {
+      content: "Freelancer";
+      border-right-color: #fff;
+  }
+  86.5% {
+      content: "Freelancer";
+      border-right-color: transparent;
+  }
+  88% {
+      content: "Freelancer";
+      border-right-color: #fff;
+  }
+  89.5% {
+      content: "Freelancer";
+      border-right-color: transparent;
+  }
+  90% {
+      content: "Freelancer";
+      border-right-color: #fff;
+  }
+  90.5% {
+      content: "Freelance";
+      border-right-color: #fff;
+  }
+  91.5% {
+      content: "Freelanc";
+      border-right-color: #fff;
+  }
+  92.5% {
+      content: "Freelan";
+      border-right-color: #fff;
+  }
+  93.5% {
+      content: "Freela";
+      border-right-color: #fff;
+  }
+  94.5% {
+      content: "Freel";
+      border-right-color: #fff;
+  }
+  95.5% {
+      content: "Free";
+      border-right-color: #fff;
+  }
+  96.5% {
+      content: "Fre";
+      border-right-color: #fff;
+  }
+  97.5% {
+      content: "Fr";
+      border-right-color: #fff;
+  }
+  98.5% {
+      content: "F";
+      border-right-color: #fff;
+  }
+  100% {
+      content: "";
+      border-right-color: #fff;
+  }
+}
+/* ----------- Animation ----------- */
+
+.py-6 {
+  padding-block: 80px !important;
+}
+
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

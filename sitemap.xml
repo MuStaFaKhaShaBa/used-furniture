@@ -1,0 +1,31 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- URL Entry for Used Furniture -->
+  <url>
+    <loc>https://high-site.com/</loc>
+    <lastmod>2025-01-14</lastmod>
+    
+    <!-- Image 1: Used Furniture Service -->
+    <image:image>
+      <image:loc>https://high-site.com/img/poster-Used-Furniture-kw-1-55096667.png</image:loc>
+      <image:caption>نحن نشتري الأثاث المستعمل في الكويت بأسعار ممتازة. احصل على القيمة الأفضل لأثاثك المستعمل اليوم.</image:caption>
+      <image:title>شراء الأثاث المستعمل بالكويت - أعلى الأسعار لأثاثك المستعمل</image:title>
+    </image:image>
+
+    <!-- Image 2: Used Furniture Service -->
+    <image:image>
+      <image:loc>https://high-site.com/img/poster-Used-Furniture-kw-2-55096667.png</image:loc>
+      <image:caption>اشترِ أثاثك المستعمل بسهولة وسرعة في الكويت مع خدمات شراء موثوقة.</image:caption>
+      <image:title>شراء الأثاث المستعمل بالكويت - خدمة سريعة وآمنة</image:title>
+    </image:image>
+
+    <!-- Image 3: Used Furniture Service -->
+    <image:image>
+      <image:loc>https://high-site.com/img/poster-Used-Furniture-kw-3-55096667.png</image:loc>
+      <image:caption>نحن نهتم بشراء الأثاث المستعمل في جميع مناطق الكويت. قدم لنا أثاثك واحصل على أفضل العروض.</image:caption>
+      <image:title>أفضل خدمة لشراء الأثاث المستعمل في الكويت</image:title>
+    </image:image>
+  </url>
+
+</urlset>
